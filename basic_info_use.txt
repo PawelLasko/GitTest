@@ -1,0 +1,31 @@
+…or create a new repository on the command line
+
+echo "# GitPhD" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/PawelLasko/GitPhD.git
+git push -u origin master
+
+
+dupa
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/PawelLasko/GitPhD.git
+git push -u origin master
+
+
+Moje notatki:
+git init 				//inicjalizuje puste repozytorium w folderze
+git clone /tutaj url/ np.:
+git clone https://github.com/PawelLasko/GitTest
+git clone kopiuje z serwera pliki na dysk mojego komputera
+
+git status
+git add, np.:
+git add ToBeAdded.txt
+git add -A 	//doda wszystko; można zasąpić "-A" kropką
+git commit -m "dodaj plik do repozytorium"	//ale tylko na mojej maszynie
+git push	//pcha repozytorium na serwer (nie wiem po co " -u origin master" ale może lepiej dawać
+git pull	//ściąga repozytorium na maszynę, ale musisz być w folderze, gdzie to repozytorium zostało stworzone
